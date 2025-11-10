@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+:root {
+  --white: #f8f8f8;
+  --black: #010028;
+  --gray: #283641;
+  --lightgray: #d2d2cc;
+
+  --ice: #dbeafe;
+  --skyblue: #3088f8;
+  --royalblue: #3150cf;
+  --sapphire: #1027a7;
+
+  --yellow: #fff085;
+  --mango: #f7c059;
+  --beige: #b59757;
+
+  --slate: #5d5f74;
+  --darkslate: #28344a;
+  --charcoal: #464742;
+}
+
+@font-face {
+  font-family: "pokemon";
+  src: url("/fonts/pokemon-rs.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --color-white: var(--white);
+  --color-black: var(--black);
+  --color-gray: var(--gray);
+  --color-lightgray: var(--lightgray);
+
+  --color-ice: var(--ice);
+  --color-skyblue: var(--skyblue);
+  --color-royalblue: var(--royalblue);
+  --color-sapphire: var(--sapphire);
+
+  --color-yellow: var(--yellow);
+  --color-mango: var(--mango);
+  --color-beige: var(--beige);
+
+  --color-slate: var(--slate);
+  --color-darkslate: var(--nileblue);
+  --color-charcoal: var(--charcoal);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-pokemon: "pokemon", sans-serif;
+}
+
+@layer utilities {
+  .text-shadow-lightgray {
+    text-shadow: 2px 2px 2px var(--lightgray);
+  }
+
+  .text-shadow-gray {
+    text-shadow: 1px 1px 1px var(--gray);
+  }
+  .text-shadow-none {
+    text-shadow: none;
+  }
+}
+
+body {
+  background: repeating-linear-gradient(
+    0deg,
+    var(--royalblue) 0px,
+    var(--royalblue) 10px,
+    var(--sapphire) 10px,
+    var(--sapphire) 20px
+  );
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--beige);
+  border: 3px solid var(--mango);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--black);
+  border: 3px solid var(--beige);
+}

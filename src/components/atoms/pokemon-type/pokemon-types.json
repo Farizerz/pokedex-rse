@@ -1,0 +1,164 @@
+[
+  {
+    "name": "psychic",
+    "title": "PSYCHC",
+    "color": {
+      "background": "bg-[#F85888]",
+      "borderTop": "border-t-[#F8C0B0]",
+      "borderBottom": "border-b-[#906060]"
+    }
+  },
+  {
+    "name": "water",
+    "title": "WATER",
+    "color": {
+      "background": "bg-[#6890F0]",
+      "borderTop": "border-t-[#98D8D8]",
+      "borderBottom": "border-b-[#807870]"
+    }
+  },
+  {
+    "name": "normal",
+    "title": "NORMAL",
+    "color": {
+      "background": "bg-[#A8A878]",
+      "borderTop": "border-t-[#D8D8C0]",
+      "borderBottom": "border-b-[#705848]"
+    }
+  },
+  {
+    "name": "fire",
+    "title": "FIRE",
+    "color": {
+      "background": "bg-[#F08030]",
+      "borderTop": "border-t-[#F8D030]",
+      "borderBottom": "border-b-[#C03028]"
+    }
+  },
+  {
+    "name": "electric",
+    "title": "ELECTR",
+    "color": {
+      "background": "bg-[#F8D030]",
+      "borderTop": "border-t-[#F8F878]",
+      "borderBottom": "border-b-[#B8A038]"
+    }
+  },
+  {
+    "name": "grass",
+    "title": "GRASS",
+    "color": {
+      "background": "bg-[#78C850]",
+      "borderTop": "border-t-[#C0F860]",
+      "borderBottom": "border-b-[#588040]"
+    }
+  },
+  {
+    "name": "ice",
+    "title": "ICE",
+    "color": {
+      "background": "bg-[#98D8D8]",
+      "borderTop": "border-t-[#D0F8E8]",
+      "borderBottom": "border-b-[#9090A0]"
+    }
+  },
+  {
+    "name": "fighting",
+    "title": "FIGHT",
+    "color": {
+      "background": "bg-[#C03028]",
+      "borderTop": "border-t-[#F08030]",
+      "borderBottom": "border-b-[#484038]"
+    }
+  },
+  {
+    "name": "poison",
+    "title": "POISON",
+    "color": {
+      "background": "bg-[#A040A0]",
+      "borderTop": "border-t-[#D880B8]",
+      "borderBottom": "border-b-[#483850]"
+    }
+  },
+  {
+    "name": "ground",
+    "title": "GROUND",
+    "color": {
+      "background": "bg-[#E0C068]",
+      "borderTop": "border-t-[#F8F878]",
+      "borderBottom": "border-b-[#886830]"
+    }
+  },
+  {
+    "name": "flying",
+    "title": "FLYING",
+    "color": {
+      "background": "bg-[#A890F0]",
+      "borderTop": "border-t-[#C8C0F8]",
+      "borderBottom": "border-b-[#705898]"
+    }
+  },
+  {
+    "name": "bug",
+    "title": "BUG",
+    "color": {
+      "background": "bg-[#A8B820]",
+      "borderTop": "border-t-[#D8E030]",
+      "borderBottom": "border-b-[#789010]"
+    }
+  },
+  {
+    "name": "rock",
+    "title": "ROCK",
+    "color": {
+      "background": "bg-[#B8A038]",
+      "borderTop": "border-t-[#E0C068]",
+      "borderBottom": "border-b-[#886830]"
+    }
+  },
+  {
+    "name": "ghost",
+    "title": "GHOST",
+    "color": {
+      "background": "bg-[#705898]",
+      "borderTop": "border-t-[#A890F0]",
+      "borderBottom": "border-b-[#483850]"
+    }
+  },
+  {
+    "name": "dragon",
+    "title": "DRAGON",
+    "color": {
+      "background": "bg-[#7038F8]",
+      "borderTop": "border-t-[#B8A0F8]",
+      "borderBottom": "border-b-[#483890]"
+    }
+  },
+  {
+    "name": "dark",
+    "title": "DARK",
+    "color": {
+      "background": "bg-[#705848]",
+      "borderTop": "border-t-[#A8A878]",
+      "borderBottom": "border-b-[#484038]"
+    }
+  },
+  {
+    "name": "steel",
+    "title": "STEEL",
+    "color": {
+      "background": "bg-[#B8B8D0]",
+      "borderTop": "border-t-[#D8D8C0]",
+      "borderBottom": "border-b-[#807870]"
+    }
+  },
+  {
+    "name": "fairy",
+    "title": "FAIRY",
+    "color": {
+      "background": "bg-[#DF8FDD]",
+      "borderTop": "border-t-[#F5C6F5]",
+      "borderBottom": "border-b-[#906060]"
+    }
+  }
+]
