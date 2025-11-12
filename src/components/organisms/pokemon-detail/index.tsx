@@ -3,7 +3,7 @@
 import { FC, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import Container from "@/components/atoms/container";
-import DetailCard from "@/components/molecules/detail-card";
+import DetailCard from "@/components/organisms/pokemon-detail/detail-card";
 import { fetchData } from "@/lib/fetchData";
 import { usePokemonStore } from "@/store/usePokemonStore";
 
