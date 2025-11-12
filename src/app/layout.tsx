@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { URL } from "@/utils/constants/url";
+import { URL as STATIC_URL } from "@/utils/constants/url";
 import Provider from "./providers";
 import "./globals.css";
 
@@ -15,20 +15,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: `Pokédex RSE | ${URL.MAIN_URL}`,
+  metadataBase: new URL(STATIC_URL.MAIN_URL),
+  title: `Pokédex RSE | A compact Pokédex in RSE style`,
   description:
     "A simple Pokedex made with Ruby, Sapphire & Emerald style as the inspiration, which displays only the necessary information.",
   verification: {
     google: "VEY9xJGsGg-8CS-n8oS9RpsbVcexr2eKDQ5TXKKdIUU",
   },
   alternates: {
-    canonical: URL.MAIN_URL,
+    canonical: STATIC_URL.MAIN_URL,
   },
   openGraph: {
-    title: `Pokédex RSE | ${URL.MAIN_URL}`,
+    title: `Pokédex RSE | A compact Pokédex in RSE Style`,
     description:
       "A simple Pokedex made with Ruby, Sapphire & Emerald style as the inspiration, which displays only the necessary information.",
-    url: URL.MAIN_URL,
+    url: STATIC_URL.MAIN_URL,
     siteName: "Pokedex RSE",
     images: [
       {
@@ -38,6 +39,10 @@ export const metadata: Metadata = {
         alt: "Pokédex RSE",
       },
     ],
+  },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
 
